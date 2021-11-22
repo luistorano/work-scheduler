@@ -1,0 +1,123 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chakra+Petch&family=Cuprum&family=Dongle&family=Pathway+Gothic+One&family=Zen+Kaku+Gothic+New&display=swap');
+
+/* General Styling */
+body {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+
+/* Text Box Styling */
+textarea{
+  background: #d1dada;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+
+/* Heading IMG Styling */
+img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+
+/* Description Styling */
+.description{
+  white-space: pre-wrap;
+}
+
+/* Time Styling */
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+
+/* Color Codes */
+.past {
+  background-color: #d3d3d3;
+  margin-bottom: 5px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+
+/* Save Button Styling */
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #00d8cd;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.saveBtn:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+  background-color: #008f88;
+}
+
+
+/* Mobile Styling */
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+  .row {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hour {
+    padding-right: 17%;
+  }
+
+  .saveBtn {
+    border: 0;
+    border-radius: 15px;
+    height: 50px;
+  }
+
+  textarea {
+    min-height: 85px;
+    border: 0;
+    border-radius: 15px;
+  }
+}

@@ -2,11 +2,17 @@
 
 
 ## Welcome to your Daily Routine
+Plan out your workday wiht this handy dandy planner!
 
+
+### Website Link
 You can go to your new favorite scheduler right bellow!
-[WDS](https://luistorano.github.io/work-scheduler/)
+[WDS](https://luistorano.github.io/work-scheduler/) (Work Day Scheduler)
 
 
-Also, here is a Demo of the site as well 😊
+Also, here is a Demo Preview of the site as well 😊
 
-![](https://github.com/luistorano/work-scheduler/blob/main/assets/readme-img/commute-gif.GIF)
+### Preview
+![](https://github.com/luistorano/work-scheduler/blob/main/assets/readme-img/commute-gif.gif)
+
+
